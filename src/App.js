@@ -1,16 +1,12 @@
-//import logo from './logo.svg';
-import NavBar from './components/NavBar.js'
-import Header from './components/Header.js'
-import Content from './components/Content.js'
-import Footer from './components/Footer.js'
-import './App.css';
+import NavBar from './components/Navbar/Navbar.js'
+import ItemListContainer from './components/ItemListContainer/ItemListContainer.js'
+import './App.css'
+import 'bootstrap'
 function App() {
   return (
     <div id="App">
       <NavBar />
-      <Header />
-      <Content />
-      <Footer />
+      <ItemListContainer greetings={`Bienvenidos... próximamente listado de los productos`} />
     </div>
   );
 }
