@@ -1,6 +1,6 @@
-import logo from './logo.svg';
+import logo from './assets/logo.svg';
 import CartWidget from '../CartWidget/CartWidget';
-import './Navbar.css'
+import './assets/Navbar.css'
 const NavBar = (params) => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
