@@ -1,7 +1,7 @@
 import logo from './assets/logo.svg';
 import CartWidget from '../CartWidget/CartWidget';
 import './assets/Navbar.css'
-const NavBar = (params) => {
+const NavBar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <div className="container px-4 px-lg-5">
